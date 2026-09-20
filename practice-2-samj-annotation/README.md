@@ -1,6 +1,6 @@
 <div align="right" style="margin:0px 0px 10px 0px"><img src="../assets/epfl-center-for-imaging.svg" alt="EPFL Center for Imaging" height="46"/></div>
 
-$\Large{\textsf{\textcolor{#f33}{WORKSHOP ON BIOIMAGE ANALYSIS}}}$
+$\textsf{\textcolor{#f33}{\Large WORKSHOP ON BIOIMAGE ANALYSIS}}$
 
 <hr>
 
