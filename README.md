@@ -36,10 +36,10 @@ Complete the [installation instructions](instructions/) before arriving: install
 ## Contents of the workshop
 
 - **Introduction** — slides, concepts, and key resources.
-- [Practice 1: Run a pretrained model](hand-ons/practice-1-pretrained-model/) — StarDist, Cellpose, and BioImage Model Zoo models.
-- [Practice 2: Accelerate annotation with SAMJ](hand-ons/practice-2-samj-annotation/) — interactive segmentation with the Segment Anything Model.
-- [Practice 3: Build a macro pipeline](hand-ons/practice-3-macro-pipeline/) — call a deep-learning prediction in an image-analysis pipeline.
-- [Demo: Fine-tune a pretrained model](hand-ons/demo-yolo-fine-tuning/) — demonstration and discussion.
+- [Practice 1: Run a pretrained model](hand-ons/README.md#practice-1-run-a-pretrained-model) — StarDist, Cellpose, and BioImage Model Zoo models.
+- [Practice 2: Accelerate annotation with SAMJ](hand-ons/README.md#practice-2-accelerate-annotation-with-samj) — interactive segmentation with the Segment Anything Model.
+- [Practice 3: Build a macro pipeline](hand-ons/README.md#practice-3-build-a-macro-pipeline) — call a deep-learning prediction in an image-analysis pipeline.
+- [Demo: Fine-tune a pretrained model](hand-ons/README.md#demonstration-fine-tune-a-yolo-detector) — demonstration and discussion.
 - **Perspectives** — opportunities, limitations, ethical questions, and risks of AI in bioimage analysis.
 
 <hr>
