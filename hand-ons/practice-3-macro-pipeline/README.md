@@ -1,4 +1,4 @@
-<div align="right" style="margin:0px 0px 10px 0px"><img src="../assets/epfl-center-for-imaging.svg" alt="EPFL Center for Imaging" height="46"/></div>
+<div align="right" style="margin:0px 0px 10px 0px"><img src="../../assets/epfl-center-for-imaging.svg" alt="EPFL Center for Imaging" height="46"/></div>
 
 $\textsf{\textcolor{#f33}{\Large WORKSHOP ON BIOIMAGE ANALYSIS}}$
 
@@ -20,6 +20,10 @@ Bioimage Analysis Unit, [Institut Pasteur](https://research.pasteur.fr/en/team/b
 <p align="right" style="text-align:right; padding:0.8px; margin:0px; font-size:0.8em; color:#888"><sub>OCTOBER 2026 | SPAOM | VIC | SPAIN</sub></p>
 
 
-# Demonstration: Fine-tune a YOLO detector
+# Practice 3: Build a macro pipeline
 
-This is an instructor-led demonstration rather than a required participant exercise.
+**Goal:** invoke a deep-learning prediction from a macro and connect it to a repeatable image-analysis workflow.
+
+## Hands-on
+
+1. Open the example macro in [Fiji](https://imagej.net/scripting/macro) or the equivalent [Icy protocol](https://icy.bioimageanalysis.org/protocols/).
