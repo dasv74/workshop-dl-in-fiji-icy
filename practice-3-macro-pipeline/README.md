@@ -24,10 +24,6 @@ Bioimage Analysis Unit, [Institut Pasteur](https://research.pasteur.fr/en/team/b
 
 **Goal:** invoke a deep-learning prediction from a macro and connect it to a repeatable image-analysis workflow.
 
-## Exercises
+## Hands-on
 
 1. Open the example macro in [Fiji](https://imagej.net/scripting/macro) or the equivalent [Icy protocol](https://icy.bioimageanalysis.org/protocols/).
-2. Select an input image and run the model prediction from the macro.
-3. Add a post-processing step such as thresholding, labeling, measurement, or export.
-4. Run the workflow on a second image without changing the code.
-5. Record the model, software version, parameters, and output location.

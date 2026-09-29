@@ -24,11 +24,6 @@ Bioimage Analysis Unit, [Institut Pasteur](https://research.pasteur.fr/en/team/b
 
 **Goal:** run a pretrained segmentation model on a microscopy image, inspect the result, and understand the assumptions behind the prediction.
 
-## Exercises
+## Hands-on
 
 1. Open the supplied practice image in [Fiji](https://fiji.sc/) or [Icy](https://icy.bioimageanalysis.org/).
-2. Choose a pretrained model from [DeepImageJ](https://deepimagej.github.io/), [DeepIcy](https://icy.bioimageanalysis.org/plugin/deepicy/), or the [BioImage Model Zoo](https://bioimage.io/).
-3. Check the model documentation: input size, pixel or voxel size, axes, normalization, and expected output.
-4. Run prediction with a [StarDist](https://github.com/stardist/stardist), [Cellpose](https://www.cellpose.org/), or BioImage Model Zoo model.
-5. Inspect the prediction and compare it with the input image.
-6. Save the result together with the model name and settings.

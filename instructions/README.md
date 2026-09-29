@@ -22,22 +22,39 @@ Bioimage Analysis Unit, [Institut Pasteur](https://research.pasteur.fr/en/team/b
 
 # Before the workshop
 
-Please complete the installation for **one** platform before arriving. You do not need a GPU. An 8 GB RAM laptop is recommended.
+Please install **one** platform, Fiji or Icy, before you arrive. No GPU is needed; a laptop with 8 GB of RAM is recommended.
+
+The first time a model is installed, the plugin downloads its weights and, for StarDist, Cellpose and SAM, a Python environment through [JDLL](https://github.com/bioimage-io/JDLL) and [Appose](https://github.com/apposed/appose). This can take several minutes per model, so please do it at home on a good connection rather than on the workshop Wi-Fi.
 
 ## Fiji
 
-1. Download and launch the latest [Fiji](https://fiji.sc/downloads) for your operating system.
-2. Open `Help > Update...`, click `Manage update sites`, and enable the update site for **DeepImageJ** and **SAMJ** 
-3. Apply the changes and restart Fiji.
-4. Confirm that the DeepImageJ commands are available from the `Plugins` menu.
-5. Install models on **DeepImageJ** and **SAMJ** 
+**Install Fiji and the plugins**
 
-The first model run may download model files and Java/Python dependencies through [JDLL](https://github.com/bioimage-io/JDLL) and [Appose](https://github.com/apposed/appose). Please allow extra time for this on the first launch.
+1. Download the latest [Fiji](https://fiji.sc/downloads) for your operating system, unpack it and launch it.
+2. Open `Help > Update...`, click `Manage update sites`, and tick **DeepImageJ** and **SAMJ**.
+3. Apply the changes and restart Fiji.
+
+**Download the models**
+
+Wait for each installation to finish before starting the next one.
+
+4. **BioImage Model Zoo** — `Plugins > DeepImageJ > DeepImageJ Run`
+   - Wait until the list of models has loaded, then select the `Bioimage.io` source (orange).
+   - Select **2D UNETR nucleus painting from bright-field to fluorescence** (nickname `serious-turtle`) and click `Install`.
+5. **StarDist** — `Plugins > DeepImageJ > DeepImageJ StarDist`
+   - Open the test image [`stardist_example_he.jpg`](../images/stardist_example_he.jpg), select **StarDist H&E Nuclei Segmentation**, click `Install`, then `Run`.
+   - Open the test image [`stardist_example_fluo.jpg`](../images/stardist_example_fluo.jpg), select **StarDist Fluorescence Nuclei Segmentation**, click `Install`, then `Run`.
+6. **Cellpose** — `Plugins > DeepImageJ > DeepImageJ Cellpose`
+   - Open the test image [`cellpose-example.png`](../images/cellpose-example.png), select the model `cyto3`, click `Install`, then `Run`.
+7. **Segment Anything** — `Plugins > SAMJ > SAMJ Annotator`
+   - Select **SAM2 Small**, click `>`, then `Install`.
+
+If every model installed and each `Run` produced a result, you are ready for the workshop.
 
 ## Icy
 
-1. Download and launch [Icy](https://icy.bioimageanalysis.org/download/) for your operating system.
-2. Open the plugin browser and install **[DeepIcy](https://icy.bioimageanalysis.org/plugin/deepicy/)**.
-3. Restart Icy and confirm that the DeepIcy plugin is available.
-4. Keep at least 5 GB of free disk space for models and cached dependencies.
+1. Download the latest [Icy](https://icy.bioimageanalysis.org/download/) for your operating system and launch it.
+
+> [!NOTE]
+> The plugin and model instructions for Icy are being prepared and will be added here before the workshop.
 

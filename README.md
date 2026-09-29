@@ -23,21 +23,24 @@ Bioimage Analysis Unit, [Institut Pasteur](https://research.pasteur.fr/en/team/b
 
 <hr>
 
-<p align="right" style="text-align:right; padding:0.8px; margin:0px; font-size:0.8em; color:#888"><sub>OCTOBER 2026 | SPAOM | VIC | SPAIN</sub></p>
+<p align="right" style="text-align:right; padding:0.0px; margin-bottom:10px; font-size:0.8em; color:#888"><sub>OCTOBER 2026 | SPAOM | VIC | SPAIN</sub></p>
 
 
+*This repository contains the course material for the [SPAOM 2026](https://spaom2026.org/) community workshop. It is designed for biologists, microscopists, and facility staff who already use [Fiji](https://fiji.sc/) or [Icy](https://icy.bioimageanalysis.org/). No programming or deep-learning background is required.*
 
 
-## Contents
+## Before the workshop
 
-This repository contains the course material for the [SPAOM 2026](https://spaom2026.org/) community workshop. It is designed for biologists, microscopists, and facility staff who already use [Fiji](https://fiji.sc/) or [Icy](https://icy.bioimageanalysis.org/). No programming or deep-learning background is required.
+Complete the [installation instructions](instructions/) before arriving: install Fiji or Icy, the required plugins, and the models. Bring your own laptop with enough permissions to download models and dependencies. A GPU is not required.
 
-- [Before the workshop](instructions/) — install Fiji or Icy and the required plugins.
-- [Introduction](introduction/) — slides, concepts, and key resources.
+## Contents of the workshop
+
+- **Introduction** — slides, concepts, and key resources.
 - [Practice 1: Run a pretrained model](practice-1-pretrained-model/) — StarDist, Cellpose, and BioImage Model Zoo models.
-- [Practice 2: Accelerate annotation with SAMJ](practice-2-samj-annotation/) — interactive segmentation with Segment Anything Model.
-- [Practice 3: Build a macro pipeline](practice-3-macro-pipeline/) — call deep-learning prediction in a image-analysis pipeline.
-- [Demo: Fine-tune a pre-trained model](demo-yolo-fine-tuning/) — demonstration and discussion.
+- [Practice 2: Accelerate annotation with SAMJ](practice-2-samj-annotation/) — interactive segmentation with the Segment Anything Model.
+- [Practice 3: Build a macro pipeline](practice-3-macro-pipeline/) — call a deep-learning prediction in an image-analysis pipeline.
+- [Demo: Fine-tune a pretrained model](demo-yolo-fine-tuning/) — demonstration and discussion.
+- **Perspectives** — opportunities, limitations, ethical questions, and risks of AI in bioimage analysis.
 
 <hr>
 
@@ -51,15 +54,6 @@ This workshop demonstrates how [JDLL](https://github.com/bioimage-io/JDLL) and [
 
 The workshop closes by discussing the opportunities, limitations, ethical questions, and risks of AI-based bioimage analysis.
 
-### Learning goals
-
-By the end of the workshop, participants should be able to:
-
-- run a pretrained segmentation model from Fiji or Icy;
-- inspect a model's inputs, outputs, assumptions, and limitations;
-- accelerate biological annotation with interactive prompts;
-- connect prediction to a reproducible macro-based workflow;
-- explain the main steps and risks of fine-tuning.
 
 <hr>
 
@@ -67,16 +61,12 @@ By the end of the workshop, participants should be able to:
 
 | Time | Activity |
 | ---: | --- |
-| 0–15 min | Introduction and context  Java–Python bridges |
+| 0–15 min | Introduction and context: Java–Python bridges |
 | 15–30 min | Practice 1: pretrained segmentation model |
 | 30–45 min | Practice 2: SAMJ annotation acceleration |
 | 45–55 min | Practice 3: macro pipeline |
 | 55–65 min | YOLO fine-tuning demonstration |
 | 65–75 min | Discussion, limitations, and questions |
-
-## Before the workshop
-
-Complete the [installation instructions](instructions/) before arriving. Bring your own laptop with Fiji or Icy installed and enough permissions to download models and dependencies. A GPU is not required.
 
 ## Software
 
@@ -95,10 +85,9 @@ All workshop tools are open source.
 
 ## Practical requirements
 
-
-- laptop with at least 8 GB RAM recommended, no GPU required;
-- Fiji or Icy installed before the session.
-- Knowledge of Fiji
+- a laptop with at least 8 GB of RAM (recommended); no GPU required;
+- Fiji or Icy installed before the session;
+- basic knowledge of Fiji or Icy.
 
 <hr>
 

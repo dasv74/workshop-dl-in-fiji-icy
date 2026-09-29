@@ -24,14 +24,14 @@ Bioimage Analysis Unit, [Institut Pasteur](https://research.pasteur.fr/en/team/b
 
 **Goal:** use the promptable [Segment Anything Model](https://github.com/facebookresearch/segment-anything) to create or refine annotations more quickly, then inspect the result critically.
 
-## Exercises
+## Hands-on
 
-1. Open the supplied image in [Fiji](https://fiji.sc/).
-2. Start [SAMJ](https://github.com/segment-anything-models-java/SAMJ-IJ) and select the appropriate model size for the laptop.
-3. Add points or prompts to identify the biological object of interest.
-4. Review the proposed mask and correct it where necessary.
-5. Export the annotation as a mask or label image.
-6. Discuss when interactive prompting is preferable to fully automatic segmentation.
-
+1. Open the image `TBD` in [Fiji](https://fiji.sc/).
+2. Start [SAMJ](https://github.com/segment-anything-models-java/SAMJ-IJ) and select the installed model **SAM2 Small**.
+3. Click `Go` to encode the image.
+4. Add point prompts or bounding-box prompts to identify the biological object of interest.
+5. Review the proposed mask and correct it where necessary.
+6. Export the annotation as a mask or label image.
+7. Discuss when interactive prompting is preferable to fully automatic segmentation.
 
 SAMJ documentation: [SAMJ-IJ on GitHub](https://github.com/segment-anything-models-java/SAMJ-IJ).
