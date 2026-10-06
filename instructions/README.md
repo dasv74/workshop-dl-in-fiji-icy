@@ -53,8 +53,5 @@ If every model installed and each `Run` produced a result, you are ready for the
 
 ## Icy
 
-1. Download the latest [Icy](https://icy.bioimageanalysis.org/download/) for your operating system and launch it.
-
-> [!NOTE]
-> The plugin and model instructions for Icy are being prepared and will be added here before the workshop.
+To install Icy, please follow the instructions specified in the following link: https://github.com/icy-imaging/icy-bulk-installer/tree/deep-icy
 
