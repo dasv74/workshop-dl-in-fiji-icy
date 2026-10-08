@@ -7,11 +7,7 @@ n = nImages;
 run("DeepImageJ StarDist", "model=[StarDist Fluorescence Nuclei Segmentation] prob_thresh=[0.479] min_percentile=[1.0] max_percentile=[99.8]");
 while (nImages == n) wait(100);
 
-
 run("Duplicate...", "title=output");
-/** Workaround bug of axis orientation **/
-run("Rotate 90 Degrees Right");
-run("Flip Horizontally");
 
 setAutoThreshold("Default dark no-reset");
 setThreshold(1.0000, 1000000000000000000000000000000.0000);

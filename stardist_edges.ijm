@@ -11,9 +11,6 @@ while (nImages == n) wait(100);
 
 
 run("Duplicate...", "title=output");
-/** Workaround bug of axis orientation **/
-run("Rotate 90 Degrees Right");
-run("Flip Horizontally");
 
 run("Find Edges");
 setThreshold(1.0000, 1000000000000000000000000000000.0000);
