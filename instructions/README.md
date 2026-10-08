@@ -55,5 +55,5 @@ If every model installed and each `Run` produced a result, you are ready for the
 
 To install Icy, please follow the instructions specified in the following link: https://github.com/icy-imaging/icy-bulk-installer/tree/deep-icy
 
-Example dataset for training YOLO can be found at: https://github.com/dasv74/workshop-dl-in-fiji-icy/blob/main/images/bccd_yolo.zip
+Example dataset for training YOLO can be found at: https://github.com/dasv74/workshop-dl-in-fiji-icy/blob/main/data/bccd_yolo.zip
 

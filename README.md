@@ -1,6 +1,4 @@
 
-> [!WARNING]
-> **This repository is not yet complete.** Practice images, macros, notebooks, and PDF handouts are still being prepared for [SPAOM 2026](https://spaom2026.org/).
 
 
 
@@ -36,10 +34,9 @@ Complete the [installation instructions](instructions/) before arriving: install
 ## Contents of the workshop
 
 - **Introduction** — slides, concepts, and key resources.
-- [Practice 1: Run a pretrained model](hand-ons/README.md#practice-1-run-a-pretrained-model) — StarDist, Cellpose, and BioImage Model Zoo models.
-- [Practice 2: Accelerate annotation with SAMJ](hand-ons/README.md#practice-2-accelerate-annotation-with-samj) — interactive segmentation with the Segment Anything Model.
-- [Practice 3: Build a macro pipeline](hand-ons/README.md#practice-3-build-a-macro-pipeline) — call a deep-learning prediction in an image-analysis pipeline.
-- [Demo: Fine-tune a pretrained model](hand-ons/README.md#demonstration-fine-tune-a-yolo-detector) — demonstration and discussion.
+- **Practice 1: Run a pretrained model** — StarDist, Cellpose, and BioImage Model Zoo models.
+- **Practice 2: Accelerate annotation with SAMJ** — interactive segmentation with the Segment Anything Model.
+- **Demo: Fine-tune a pretrained model** — demonstration and discussion.
 - **Perspectives** — opportunities, limitations, ethical questions, and risks of AI in bioimage analysis.
 
 <hr>
@@ -61,12 +58,11 @@ The workshop closes by discussing the opportunities, limitations, ethical questi
 
 | Time | Activity |
 | ---: | --- |
-| 0–15 min | Introduction and context: Java–Python bridges |
-| 15–30 min | Practice 1: pretrained segmentation model |
-| 30–45 min | Practice 2: SAMJ annotation acceleration |
-| 45–55 min | Practice 3: macro pipeline |
-| 55–65 min | YOLO fine-tuning demonstration |
-| 65–75 min | Discussion, limitations, and questions |
+| 10 min | Introduction and context: Java–Python bridges |
+| 20 min | Practice 1: pretrained segmentation model |
+| 20 min | Practice 2: SAMJ annotation acceleration |
+| 15 min | YOLO fine-tuning demonstration |
+| 10 min | Discussion, limitations, and questions |
 
 ## Software
 
