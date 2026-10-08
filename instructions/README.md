@@ -57,3 +57,9 @@ To install Icy, please follow the instructions specified in the following link: 
 
 Example dataset for training YOLO can be found at: https://github.com/dasv74/workshop-dl-in-fiji-icy/blob/main/data/bccd_yolo.zip
 
+
+# After the workshop
+
+Youtube channel with videos about how to use SAMJ: https://www.youtube.com/@segment-anything-model-java
+
+I2K 2024 Virtual Worshop: https://www.youtube.com/watch?v=GlvJPXPQ2_g&t=2s
