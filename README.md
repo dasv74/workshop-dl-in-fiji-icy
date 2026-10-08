@@ -43,7 +43,7 @@ Complete the [installation instructions](instructions/) before arriving: install
 
 Youtube channel with videos about how to use SAMJ: https://www.youtube.com/@segment-anything-model-java
 
-I2K 2024 Virtual Worshop: https://www.youtube.com/watch?v=GlvJPXPQ2_g&t=2s
+SAMJ I2K 2024 Virtual Worshop: https://www.youtube.com/watch?v=GlvJPXPQ2_g&t=2s
 
 <hr>
 
