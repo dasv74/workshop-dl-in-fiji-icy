@@ -10,6 +10,9 @@ $\textsf{\textcolor{#f33}{\Large WORKSHOP ON BIOIMAGE ANALYSIS}}$
 
 # Our Old Friends in the Age of AI
 
+> [!TIP]
+> Video examples and a summary of the workshop are available in the [YouTube playlist](https://www.youtube.com/watch?v=8zw6HkfXhqY&list=PLEOTFhLtwo_E).
+
 **[Daniel Sage](mailto:daniel.sage@epfl.ch)**
 [Center for Imaging](https://imaging.epfl.ch) and Biomedical Imaging Group
 École Polytechnique Fédérale de Lausanne ([EPFL](https://imaging.epfl.ch/)), Switzerland<br/>
@@ -40,6 +43,8 @@ Complete the [installation instructions](instructions/) before arriving: install
 - **Perspectives** — opportunities, limitations, ethical questions, and risks of AI in bioimage analysis.
 
 ## After the workshop
+
+Youtube videos summarizing the main parts of the workshop: https://www.youtube.com/watch?v=8zw6HkfXhqY&list=PLEOTFhLtwo_E
 
 Youtube channel with videos about how to use SAMJ: https://www.youtube.com/@segment-anything-model-java
 
